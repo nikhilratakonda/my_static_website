@@ -1,0 +1,54 @@
+header {
+  min-height: 100px;
+}
+header img {
+  width: 100%;
+  height: 150px;
+}
+section {
+  min-height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+}
+nav {
+  flex: 0 0 450px;
+  background-color: #eddddd;
+}
+.navbar a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  margin-top: 80px;
+  margin-left: 10px;
+  display: block;
+  border: 5px solid #39bcec;
+  border-radius: 40%;
+}
+.navbar a:hover {
+  background-color: #74dbc5;
+}
+
+main {
+  flex: 0 0 633px;
+  background-color: #0aa0e0;
+}
+aside {
+  flex: 0 0 350px;
+  background-color: #ebdded;
+}
+footer {
+  background-color: #c1d9e3;
+  min-height: 50px;
+}
+footer h2 {
+  margin-top: 10px;
+  text-align: center;
+  padding: 10px 10px;
+}
+.websites li {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+.websites li a {
+  text-decoration: none;
+}
